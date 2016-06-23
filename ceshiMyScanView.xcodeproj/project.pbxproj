@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6641069B1D1BD88200030166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6641069A1D1BD88200030166 /* main.m */; };
+		6641069E1D1BD88200030166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6641069D1D1BD88200030166 /* AppDelegate.m */; };
+		664106A11D1BD88200030166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664106A01D1BD88200030166 /* ViewController.m */; };
+		664106A41D1BD88200030166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664106A21D1BD88200030166 /* Main.storyboard */; };
+		664106A61D1BD88200030166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664106A51D1BD88200030166 /* Assets.xcassets */; };
+		664106A91D1BD88200030166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664106A71D1BD88200030166 /* LaunchScreen.storyboard */; };
+		664106B41D1BD88200030166 /* ceshiMyScanViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 664106B31D1BD88200030166 /* ceshiMyScanViewTests.m */; };
+		664106BF1D1BD88200030166 /* ceshiMyScanViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 664106BE1D1BD88200030166 /* ceshiMyScanViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664106B01D1BD88200030166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6641068E1D1BD88200030166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664106951D1BD88200030166;
+			remoteInfo = ceshiMyScanView;
+		};
+		664106BB1D1BD88200030166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6641068E1D1BD88200030166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664106951D1BD88200030166;
+			remoteInfo = ceshiMyScanView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		664106961D1BD88200030166 /* ceshiMyScanView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshiMyScanView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6641069A1D1BD88200030166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6641069C1D1BD88200030166 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6641069D1D1BD88200030166 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6641069F1D1BD88200030166 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		664106A01D1BD88200030166 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		664106A31D1BD88200030166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		664106A51D1BD88200030166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664106A81D1BD88200030166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		664106AA1D1BD88200030166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664106AF1D1BD88200030166 /* ceshiMyScanViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiMyScanViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664106B31D1BD88200030166 /* ceshiMyScanViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiMyScanViewTests.m; sourceTree = "<group>"; };
+		664106B51D1BD88200030166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664106BA1D1BD88200030166 /* ceshiMyScanViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiMyScanViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664106BE1D1BD88200030166 /* ceshiMyScanViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiMyScanViewUITests.m; sourceTree = "<group>"; };
+		664106C01D1BD88200030166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664106931D1BD88200030166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664106AC1D1BD88200030166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664106B71D1BD88200030166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6641068D1D1BD88200030166 = {
+			isa = PBXGroup;
+			children = (
+				664106981D1BD88200030166 /* ceshiMyScanView */,
+				664106B21D1BD88200030166 /* ceshiMyScanViewTests */,
+				664106BD1D1BD88200030166 /* ceshiMyScanViewUITests */,
+				664106971D1BD88200030166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664106971D1BD88200030166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664106961D1BD88200030166 /* ceshiMyScanView.app */,
+				664106AF1D1BD88200030166 /* ceshiMyScanViewTests.xctest */,
+				664106BA1D1BD88200030166 /* ceshiMyScanViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664106981D1BD88200030166 /* ceshiMyScanView */ = {
+			isa = PBXGroup;
+			children = (
+				6641069C1D1BD88200030166 /* AppDelegate.h */,
+				6641069D1D1BD88200030166 /* AppDelegate.m */,
+				6641069F1D1BD88200030166 /* ViewController.h */,
+				664106A01D1BD88200030166 /* ViewController.m */,
+				664106A21D1BD88200030166 /* Main.storyboard */,
+				664106A51D1BD88200030166 /* Assets.xcassets */,
+				664106A71D1BD88200030166 /* LaunchScreen.storyboard */,
+				664106AA1D1BD88200030166 /* Info.plist */,
+				664106991D1BD88200030166 /* Supporting Files */,
+			);
+			path = ceshiMyScanView;
+			sourceTree = "<group>";
+		};
+		664106991D1BD88200030166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6641069A1D1BD88200030166 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		664106B21D1BD88200030166 /* ceshiMyScanViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				664106B31D1BD88200030166 /* ceshiMyScanViewTests.m */,
+				664106B51D1BD88200030166 /* Info.plist */,
+			);
+			path = ceshiMyScanViewTests;
+			sourceTree = "<group>";
+		};
+		664106BD1D1BD88200030166 /* ceshiMyScanViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				664106BE1D1BD88200030166 /* ceshiMyScanViewUITests.m */,
+				664106C01D1BD88200030166 /* Info.plist */,
+			);
+			path = ceshiMyScanViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664106951D1BD88200030166 /* ceshiMyScanView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664106C31D1BD88200030166 /* Build configuration list for PBXNativeTarget "ceshiMyScanView" */;
+			buildPhases = (
+				664106921D1BD88200030166 /* Sources */,
+				664106931D1BD88200030166 /* Frameworks */,
+				664106941D1BD88200030166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceshiMyScanView;
+			productName = ceshiMyScanView;
+			productReference = 664106961D1BD88200030166 /* ceshiMyScanView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664106AE1D1BD88200030166 /* ceshiMyScanViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664106C61D1BD88200030166 /* Build configuration list for PBXNativeTarget "ceshiMyScanViewTests" */;
+			buildPhases = (
+				664106AB1D1BD88200030166 /* Sources */,
+				664106AC1D1BD88200030166 /* Frameworks */,
+				664106AD1D1BD88200030166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664106B11D1BD88200030166 /* PBXTargetDependency */,
+			);
+			name = ceshiMyScanViewTests;
+			productName = ceshiMyScanViewTests;
+			productReference = 664106AF1D1BD88200030166 /* ceshiMyScanViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		664106B91D1BD88200030166 /* ceshiMyScanViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664106C91D1BD88200030166 /* Build configuration list for PBXNativeTarget "ceshiMyScanViewUITests" */;
+			buildPhases = (
+				664106B61D1BD88200030166 /* Sources */,
+				664106B71D1BD88200030166 /* Frameworks */,
+				664106B81D1BD88200030166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664106BC1D1BD88200030166 /* PBXTargetDependency */,
+			);
+			name = ceshiMyScanViewUITests;
+			productName = ceshiMyScanViewUITests;
+			productReference = 664106BA1D1BD88200030166 /* ceshiMyScanViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6641068E1D1BD88200030166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = helong;
+				TargetAttributes = {
+					664106951D1BD88200030166 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 23T22YH3Q6;
+					};
+					664106AE1D1BD88200030166 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 23T22YH3Q6;
+						TestTargetID = 664106951D1BD88200030166;
+					};
+					664106B91D1BD88200030166 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 23T22YH3Q6;
+						TestTargetID = 664106951D1BD88200030166;
+					};
+				};
+			};
+			buildConfigurationList = 664106911D1BD88200030166 /* Build configuration list for PBXProject "ceshiMyScanView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6641068D1D1BD88200030166;
+			productRefGroup = 664106971D1BD88200030166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664106951D1BD88200030166 /* ceshiMyScanView */,
+				664106AE1D1BD88200030166 /* ceshiMyScanViewTests */,
+				664106B91D1BD88200030166 /* ceshiMyScanViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664106941D1BD88200030166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664106A91D1BD88200030166 /* LaunchScreen.storyboard in Resources */,
+				664106A61D1BD88200030166 /* Assets.xcassets in Resources */,
+				664106A41D1BD88200030166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664106AD1D1BD88200030166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664106B81D1BD88200030166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664106921D1BD88200030166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664106A11D1BD88200030166 /* ViewController.m in Sources */,
+				6641069E1D1BD88200030166 /* AppDelegate.m in Sources */,
+				6641069B1D1BD88200030166 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664106AB1D1BD88200030166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664106B41D1BD88200030166 /* ceshiMyScanViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664106B61D1BD88200030166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664106BF1D1BD88200030166 /* ceshiMyScanViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664106B11D1BD88200030166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664106951D1BD88200030166 /* ceshiMyScanView */;
+			targetProxy = 664106B01D1BD88200030166 /* PBXContainerItemProxy */;
+		};
+		664106BC1D1BD88200030166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664106951D1BD88200030166 /* ceshiMyScanView */;
+			targetProxy = 664106BB1D1BD88200030166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		664106A21D1BD88200030166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664106A31D1BD88200030166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		664106A71D1BD88200030166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664106A81D1BD88200030166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664106C11D1BD88200030166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		664106C21D1BD88200030166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		664106C41D1BD88200030166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ceshiMyScanView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hl.ceshiMyScanView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		664106C51D1BD88200030166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ceshiMyScanView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hl.ceshiMyScanView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		664106C71D1BD88200030166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ceshiMyScanViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hl.ceshiMyScanViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshiMyScanView.app/ceshiMyScanView";
+			};
+			name = Debug;
+		};
+		664106C81D1BD88200030166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ceshiMyScanViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hl.ceshiMyScanViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshiMyScanView.app/ceshiMyScanView";
+			};
+			name = Release;
+		};
+		664106CA1D1BD88200030166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ceshiMyScanViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hl.ceshiMyScanViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ceshiMyScanView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		664106CB1D1BD88200030166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ceshiMyScanViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hl.ceshiMyScanViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ceshiMyScanView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664106911D1BD88200030166 /* Build configuration list for PBXProject "ceshiMyScanView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664106C11D1BD88200030166 /* Debug */,
+				664106C21D1BD88200030166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664106C31D1BD88200030166 /* Build configuration list for PBXNativeTarget "ceshiMyScanView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664106C41D1BD88200030166 /* Debug */,
+				664106C51D1BD88200030166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		664106C61D1BD88200030166 /* Build configuration list for PBXNativeTarget "ceshiMyScanViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664106C71D1BD88200030166 /* Debug */,
+				664106C81D1BD88200030166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		664106C91D1BD88200030166 /* Build configuration list for PBXNativeTarget "ceshiMyScanViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664106CA1D1BD88200030166 /* Debug */,
+				664106CB1D1BD88200030166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6641068E1D1BD88200030166 /* Project object */;
+}
